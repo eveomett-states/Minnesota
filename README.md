@@ -25,7 +25,7 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-minnesota-precinct-and-election-results/): VEST 2016 precinct and election results
 
-[2022 county data](https://redistrictingdatahub.org/dataset/minnesota-county-cvap-data-2022/): 2022 Citizen Voting Age Population (CVAP) data for Minnesota from the 2018-2022 ACS 5-Year estimates at the County level
+[2020 county data](https://redistrictingdatahub.org/dataset/minnesota-county-pl-94171-2020/) from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
 
 # **Processing**
 
