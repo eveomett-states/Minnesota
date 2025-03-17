@@ -3,9 +3,9 @@ This data was generated using data from the Redistricting Data Hub.  Any use of 
 
 Use of this project is further governed by the terms of the [Creative Commons Attribution Noncommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 
-# Minnesota Election Shapefile
+# Minnesota Json and Shapefile
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu.
+This shapefile was processed by Professor Ellen Veomett and her students Arbie Hsu and Alusi, using the corresponding jupyter notebook. As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
 # **Sources**
 
@@ -25,9 +25,11 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-minnesota-precinct-and-election-results/): VEST 2016 precinct and election results
 
+[2022 county data](https://redistrictingdatahub.org/dataset/minnesota-county-cvap-data-2022/): 2022 Citizen Voting Age Population (CVAP) data for Minnesota from the 2018-2022 ACS 5-Year estimates at the County level
+
 # **Processing**
 
-Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
+Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup).
 
 # **Metadata**
 
@@ -84,7 +86,3 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `USS20D`: Number of votes for 2020 Democratic senate candidate
 - `USS20R`: Number of votes for 2020 Republican senate candidate
 - `USS20O`: Number of votes for 2020 other party's senate candidate
-
-# **Projection**
-
-The shapefile uses a UTM NAD83 projection (EPSG: 4269).
